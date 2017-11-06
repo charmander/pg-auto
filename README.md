@@ -115,8 +115,8 @@ db.query(sql`SELECT id FROM tags WHERE name = ANY (${names})`)
 pg-auto uses a connection pool, which keeps connections alive for a while to avoid the overhead of creating new connections. Use [`db.end()`](#pool-end) to close idle connections and allow Node to exit.
 
 
-  [any-array-operator]: https://www.postgresql.org/docs/current/static/functions-comparisons.html#AEN21104
-  [begin-options]: https://www.postgresql.org/docs/current/static/sql-begin.html
+  [any-array-operator]: https://www.postgresql.org/docs/10/static/functions-comparisons.html#idm46046882500112
+  [begin-options]: https://www.postgresql.org/docs/10/static/sql-begin.html
   [bluebird]: https://github.com/petkaantonov/bluebird
   [bluebird-resources]: http://bluebirdjs.com/docs/api/resource-management.html
   [knex]: http://knexjs.org/
