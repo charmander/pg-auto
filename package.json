@@ -1,0 +1,44 @@
+{
+	"name": "pg-auto",
+	"version": "1.0.0",
+	"description": "A wrapper around the pg PostgreSQL driver adding type safety to queries",
+	"keywords": [
+		"postgresql"
+	],
+	"bugs": "https://github.com/charmander/pg-auto/issues",
+	"license": "ISC",
+	"author": {
+		"name": "Charmander",
+		"email": "~@charmander.me",
+		"url": "https://charmander.me/"
+	},
+	"files": [
+		"index.js",
+		"pool.js",
+		"sql.js",
+		"unsafe-query.js",
+		"internal/client.js",
+		"internal/parse-int8.js",
+		"internal/parse-int8-array.js",
+		"internal/query.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/charmander/pg-auto"
+	},
+	"dependencies": {
+		"bluebird": "^3.5.1",
+		"pg": "7.4.0",
+		"postgres-array": "~1.0.0"
+	},
+	"scripts": {
+		"test": "tap test"
+	},
+	"devDependencies": {
+		"@charmander/eslint-config-base": "1.0.2",
+		"tap": "^10.7.2"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	}
+}

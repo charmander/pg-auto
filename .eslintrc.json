@@ -1,0 +1,10 @@
+{
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"extends": "@charmander/eslint-config-base",
+	"rules": {
+		"no-restricted-globals": ["error", "Promise"]
+	}
+}
