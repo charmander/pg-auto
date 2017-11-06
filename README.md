@@ -104,7 +104,7 @@ Closes pool connections and invalidates the pool, like [`pg.Pool#end()`][pg-pool
 
 Use an array parameter with [the `= ANY` operator][any-array-operator] instead:
 
-```psql
+```js
 const names = ['a', 'b', 'c'];
 
 db.query(sql`SELECT id FROM tags WHERE name = ANY (${names})`)
