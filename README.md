@@ -46,7 +46,7 @@ console.log(result.rows[0].greeting);  // Hello, world!
 
 ## API
 
-### ``sql`…```
+### <code>sql\`…\`</code>
 
 A template literal tag for SQL. Converts interpolated values to query parameters.
 
