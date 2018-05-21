@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "6"
   - "8"
-  - "9"
+  - "10"
 addons:
   postgresql: "9.6"
 services:
@@ -15,5 +15,3 @@ before_script:
   - pack=$(npm pack "$tmp")
   - tar --strip-components=1 -x -v -f "$pack"
   - npm install --no-save
-script:
-  - node_modules/.bin/tap test

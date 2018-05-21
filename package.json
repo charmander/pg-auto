@@ -1,6 +1,6 @@
 {
 	"name": "pg-auto",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A wrapper around the pg PostgreSQL driver adding type safety to queries",
 	"keywords": [
 		"postgresql"
@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"bluebird": "^3.5.1",
-		"pg": "7.4.1",
+		"pg": "7.4.3",
 		"postgres-array": "~1.0.0"
 	},
 	"scripts": {
