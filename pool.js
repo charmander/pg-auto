@@ -89,5 +89,6 @@ class Pool {
 }
 
 Object.defineProperty(Pool.prototype, 'addListener', Object.getOwnPropertyDescriptor(Pool.prototype, 'on'));
+Object.defineProperty(Pool.prototype, 'off', Object.getOwnPropertyDescriptor(Pool.prototype, 'removeListener'));
 
 module.exports = Pool;

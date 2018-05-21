@@ -114,5 +114,6 @@ class Client {
 }
 
 Object.defineProperty(Client.prototype, 'addListener', Object.getOwnPropertyDescriptor(Client.prototype, 'on'));
+Object.defineProperty(Client.prototype, 'off', Object.getOwnPropertyDescriptor(Client.prototype, 'removeListener'));
 
 module.exports = Client;
